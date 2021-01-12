@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <title>许愿墙</title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+<body>
+<h2 class="title" style="">快来写上你的愿望吧</h2>
+<div id="container" data-list="{{list}}"></div>
+<form action="add" method="post" id="form" name="name">
+    <!--许愿者姓名-->
+    <input type="text" class="input" id="name" name="name" placeholder="说出你的大名">
+    <input type="text" id="content" class="input" name="content" placeholder="许个愿吧">
+    <button class="submit" type="submit">提交</button>
+</form>
+<script src="/javascripts/jquery.min.js"></script>
+<script src="/javascripts/index.js"></script>
+</body>
+</html>
