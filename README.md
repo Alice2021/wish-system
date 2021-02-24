@@ -5,4 +5,29 @@
 # 项目地址
 * <a href = "https://github.com/Alice2021/wish-system">https://github.com/Alice2021/wish-system</a>
 # 效果展示
-123456789
+![](https://github.com/Alice2021/wish-system/blob/master/%E8%AE%B8%E6%84%BF%E7%B3%BB%E7%BB%9F%E7%95%8C%E9%9D%A2.png?raw=true)
+# 项目实现功能
+ - 添加愿望
+- 用户填入姓名和愿望，点击提交，愿望将会被记录到许愿墙中，同时页面刷新许愿墙的愿望显示
+ - 移动标签
+- 鼠标右键点击着标签，即可一定范围内移动标签的位置
+# 技术栈
+node.js + express + art-template渲染引擎 + MYSQL + jquery
+# 项目部署
+#### 安装MYSQL数据库
+**创建数据库表，添加模拟数据**
+
+**导入数据库**
+> 本项目导出的是sql脚本，需要用使用mysql的图像界面工具或者是命令方式 进行导入
+
+#### 运行项目 --wish
+**注入依赖**
+> npm install
+
+**在项目文件夹下启动项目**
+> npm start
+
+# 联系
+
+**对项目有任何意见或建议可以发送到我的邮箱**
+> 1573811314@qq.com
