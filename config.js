@@ -5,7 +5,7 @@ const config = {
         host: 'localhost',
         database: 'wish',
         username: 'root',
-        password: 'root'
+        password: '12345678'
     }
 };
 if (process.env.NODE_ENV === 'production') {
